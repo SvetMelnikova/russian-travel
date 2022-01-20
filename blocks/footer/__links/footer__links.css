@@ -4,14 +4,14 @@
   margin: 0 0 24px 0;
   display: flex;
   flex-basis: 465px;
-  justify-content: space-between; 
+  justify-content: space-between;
   display: grid;
   grid-template-columns: repeat(5, auto);
   gap: 18px;
 }
 
 @media screen and (max-width: 425px) {
- .footer__links {
+  .footer__links {
     display: flex;
     flex-direction: column;
     display: grid;
@@ -19,5 +19,5 @@
     grid-template-rows: repeat(5, auto);
     gap: 32px;
     margin-bottom: 48px;
- }
+  }
 }

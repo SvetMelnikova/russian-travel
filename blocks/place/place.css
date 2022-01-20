@@ -1,6 +1,6 @@
 .place {
   display: grid;
-  grid-template-columns: 1fr minmax(27ch, 1fr); 
+  grid-template-columns: 1fr minmax(27ch, 1fr);
   column-gap: 40px;
   row-gap: 48px;
 }
@@ -17,7 +17,7 @@
   }
 }
 
-@media screen and (max-width: 540px) { 
+@media screen and (max-width: 540px) {
   .place {
     grid-template-columns: 1fr;
     gap: 32px;
