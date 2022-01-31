@@ -3,7 +3,7 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 16px;
   max-width: 1184px;
-  margin: 92px auto;
+  margin: 92px auto 0 auto;
 }
 
 @media screen and (max-width: 1024px) {
@@ -19,7 +19,7 @@
     max-width: 720px;
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
-    margin: 88px auto;
+    margin: 88px auto 0 auto;
   }
 }
 
@@ -28,6 +28,6 @@
     max-width: 288px;
     grid-template-columns: 1fr;
     gap: 12px;
-    margin: 64px auto;
+    margin: 64px auto 0 auto;
   }
 }

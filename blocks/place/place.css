@@ -1,5 +1,4 @@
 .place {
-  padding: 40px 0;
   display: grid;
   gap: 48px 40px;
   grid-template-columns: 460px 1fr;
@@ -14,7 +13,6 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .place {
-    padding: 36px 0;
     gap: 48px 28px;
     grid-template-columns: 340px 1fr;
   }
@@ -22,7 +20,6 @@
 
 @media screen and (max-width: 767px) {
   .place {
-    padding: 25px 0;
     gap: 32px;
     grid-template-columns: minmax(288px, 1fr);
   }

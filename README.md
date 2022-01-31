@@ -5,10 +5,10 @@
 * Grid
 * Flexbox
 * Адаптивная верстка
-Также, в данном проекте была применана платформа Figma в качестве шаблона проекта.
+* CSS
+* HTML5
+* Файловая структура по методике БЭМ
 
-Структура фалов сформирована по методологии БЭМ.
+Макет проекта на Figma https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-%2B-mobile?node-id=28503%3A0
 
-
-
-
+Ссылка на проект - https://svetmelnikova.github.io/russian-travel/ 

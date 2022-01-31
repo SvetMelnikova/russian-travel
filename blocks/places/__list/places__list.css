@@ -1,3 +1,6 @@
 .places__list {
   display: grid;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
