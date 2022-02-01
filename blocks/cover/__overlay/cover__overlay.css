@@ -1,51 +1,26 @@
 .cover__overlay {
-  min-height: 740px;
-  color: #fff;
-  text-decoration: none;
-  box-sizing: border-box;
-  background-image: url(../../../images/cover-trains.jpg);
-  background-position: center;
-  background-size: cover;
+  position: relative;
+  width: 100%;
   display: flex;
+  text-decoration: none;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  position: relative;
-  padding: 20px;
-  z-index: 1;
+  z-index: 0;
 }
 
 .cover__overlay::before {
-  content: "";
-  background: #2a2c2f;
-  opacity: .3;
   position: absolute;
-  top: 0;
+  content: '';
+  left: 0;
   right: 0;
   bottom: 0;
-  left: 0;
+  top: 0;
+  background: #2a2c2f;
+  opacity: .3;
+  transition: opacity .1s ease-in;
   z-index: -1;
-  transition: opacity 0.5s ease-in-out;
 }
 
 .cover__overlay:hover::before {
   opacity: .8;
-}
-
-@media screen and (max-width: 1140px) {
-  .cover__overlay {
-    min-height: 640px;
-  }
-}
-
-@media screen and (max-width: 984px) {
-  .cover__overlay {
-    min-height: 480px;
-  }
-}
-
-@media screen and (max-width: 568px) {
-  .cover__overlay {
-    min-height: 200px;
-  }
 }

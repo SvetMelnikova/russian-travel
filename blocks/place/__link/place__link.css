@@ -6,9 +6,9 @@
   line-height: 22px;
   font-weight: normal;
   font-style: normal;
-  transition: opacity .3s ease;
+  transition: opacity 0.3s ease;
 }
 
 .place__link:hover {
-  opacity: .8;
+  opacity: 0.8;
 }
