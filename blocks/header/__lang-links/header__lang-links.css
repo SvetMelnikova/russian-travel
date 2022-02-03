@@ -3,6 +3,6 @@
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(2, auto);
+  grid-template-columns: repeat(2, min-content);
   gap: 18px;
 }

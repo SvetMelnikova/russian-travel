@@ -7,8 +7,16 @@
 
 @media screen and (max-width: 425px) {
   .intro__title {
-    font-size: 10vw;
+    margin: 88px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro__title {
+    font-size: 32px;
     line-height: 35px;
     margin-top: 64px;
+    max-width: 288px;
+    min-height: 70px;
   }
 }
