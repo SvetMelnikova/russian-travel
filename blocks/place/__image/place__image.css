@@ -1,7 +1,7 @@
 .place__image {
   max-width: 460px;
   display: block;
-  max-width: 100%;
+  width: 100%;
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
