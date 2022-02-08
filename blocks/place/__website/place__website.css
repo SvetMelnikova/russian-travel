@@ -1,12 +1,12 @@
 .place__website {
-  width: 456px;
+  width: 35.63vw; /*456px;*/
   margin: 0;
   align-self: end;
 }
 
 @media (min-width: 426px) and (max-width: 768px) {
   .place__website {
-    width: 352px;
+    width: 45.83vw; /*352px;*/
   }
 }
 
